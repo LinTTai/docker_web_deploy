@@ -10,5 +10,5 @@ before_install:
 script:
   - npm run build
   - echo "taishiwo1995" | docker login -u "linjintai" --password-stdin
-  - docker build -t LinTai/docker_web_deploy:latest .
-  - docker push LinTai/docker_web_deploy:latest
+  - docker build -t LinTTai/docker_web_deploy:latest .
+  - docker push LinTTai/docker_web_deploy:latest
